@@ -1,0 +1,19 @@
+*{
+    margin-bottom: 30px;
+}
+.content{
+    background-color: rgb(1, 1, 1);
+}
+.content h1{
+    color: rgb(252, 235, 46);
+}
+.content p{
+    color: antiquewhite;
+    font-size: larger;
+}
+.content h3{
+    color: antiquewhite;
+}
+span{
+    color: rgb(252, 235, 46);
+}

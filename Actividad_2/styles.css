@@ -1,0 +1,20 @@
+*{
+    margin-bottom: 50px;
+    background-color: black;
+}
+.content h1{
+    color:rgb(238, 217, 57);
+}
+
+.content p{
+    color: rgb(255, 255, 255);
+    font-size: large ;
+}
+
+.content h3{
+    color: rgb(255, 255, 255);
+}
+
+.content span{
+    color: rgb(238, 217, 57);
+}
