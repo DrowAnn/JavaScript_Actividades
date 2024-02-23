@@ -4,8 +4,8 @@
   /*background-color: rgb(93, 93, 93);*/
 }
 :root {
-  --colorPrincipal: rgb(223, 228, 66);
-  --colorSecundario: violet;
+  --colorPrincipal: rgb(255, 255, 0);
+  --colorSecundario: rgb(251, 117, 251);
   --logo: #eb2a1f;
 }
 body {
@@ -19,7 +19,7 @@ body {
   justify-items: center;
 }
 .header img {
-  width: 100%;
+  width: 200px;
   padding-bottom: 8px;
 }
 .header h2 {
@@ -32,12 +32,15 @@ body {
   font-family: cursive;
 }
 .titles h1 {
-  /*color: var(--colorPrincipal);*/
   text-align: center;
   font-size: 3rem;
+  /*color: var(--colorPrincipal);*/
 }
 .titles span {
-  color: var(--logo);
+  text-decoration: overline underline;
+  text-decoration-color: var(--logo);
+  vertical-align: middle;
+  font-size: 3.5rem;
 }
 .titles h2 {
   margin-left: 100px;
