@@ -1,3 +1,6 @@
+let documentActivity = document.getElementById("activity");
+let answers = document.createElement("div");
+
 let punto1 = [2, 4, 6, 8, 10];
 let punto1Respuesta = punto1.map((item) => {
   return item ** 2;
@@ -27,10 +30,10 @@ let punto5Respuesta = punto5.map((item) => {
 });
 punto5Respuesta.sort();
 
-alert(
-  `Arreglo del primer punto: ${punto1}\nEl resultado de la operacion es: ${punto1Respuesta}
-  \nArreglo del segundo punto: ${punto2}\nEl resultado de la operacion es: ${punto2Respuesta}
-  \nArreglo del tercer punto: ${punto3}\nEl resultado de la operacion es: ${punto3Respuesta}
-  \nArreglo del cuarto punto: ${punto4}\nEl resultado de la operacion es: ${punto4Respuesta}
-  \nArreglo del quinto punto: ${punto5}\nEl resultado de la operacion es: ${punto5Respuesta}`
-);
+answers.innerHTML = `<h3>Actividad 1</h3><p>Arreglo del primer punto: ${punto1}<br>El resultado de la operacion es: ${punto1Respuesta}</p>
+<h3>Actividad 2</h3><p>Arreglo del segundo punto: ${punto2}<br>El resultado de la operacion es: ${punto2Respuesta}</p>
+<h3>Actividad 3</h3><p>Arreglo del tercer punto: ${punto3}<br>El resultado de la operacion es: ${punto3Respuesta}</p>
+<h3>Actividad 4</h3><p>Arreglo del cuarto punto: ${punto4}<br>El resultado de la operacion es: ${punto4Respuesta}</p>
+<h3>Actividad 5</h3><p>Arreglo del quinto punto: ${punto5}<br>El resultado de la operacion es: ${punto5Respuesta}</p>`;
+
+documentActivity.appendChild(answers);

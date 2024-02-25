@@ -1,20 +1,37 @@
-*{
-    margin-bottom: 50px;
-    background-color: black;
+* {
+  margin-bottom: 30px;
+  margin-left: 10px;
+  background-color: black;
 }
-.content h1{
-    color:rgb(238, 217, 57);
-}
-
-.content p{
-    color: rgb(255, 255, 255);
-    font-size: large ;
+.content h1 {
+  color: rgb(238, 217, 57);
 }
 
-.content h3{
-    color: rgb(255, 255, 255);
+.content p {
+  color: rgb(255, 255, 255);
+  font-size: large;
 }
 
-.content span{
-    color: rgb(238, 217, 57);
+.content h3 {
+  margin-top: 50px;
+  color: rgb(255, 255, 255);
+}
+
+.content span {
+  color: rgb(238, 217, 57);
+}
+.activity {
+  margin-bottom: 20px;
+  color: rgb(255, 255, 255);
+}
+.activity h2 {
+  margin-bottom: 30px;
+  text-decoration: underline;
+}
+.activity h3 {
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+.activity p {
+  margin-bottom: 30px;
 }
