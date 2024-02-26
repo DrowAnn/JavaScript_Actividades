@@ -19,9 +19,17 @@
       <h1>Bienvenido a <br /><span>Pasteleria Roro Bel's</span></h1>
       <h2>Menu</h2>
     </div>
-    <div id="menu" class="menu">
-      <h1>Aquí va el cosito ese desplegable</h1>
-    </div>
-    <script src="scriptMain.js"></script>
+    <form id="menu" class="menu">
+      <label>Selecciona la opcion que enamore más tu apetito:</label>
+      <select id="options">
+        <option value="alfajores">Alfajores</option>
+        <option value="tortaMarcia">Torta Marcia</option>
+        <option value="mochis">Mochis</option>
+        <option value="redVelvet">Torta Red Velvet</option>
+      </select>
+      <button id="btn">¡Consultar!</button>
+      <div id="item"></div>
+    </form>
+    <script type="module" src="main.js"></script>
   </body>
 </html>

@@ -24,6 +24,7 @@ body {
 }
 .header h2 {
   text-decoration: overline underline;
+  text-underline-offset: 5px;
   text-decoration-color: var(--logo);
 }
 .titles {
@@ -39,16 +40,57 @@ body {
 .titles span {
   text-decoration: overline underline;
   text-decoration-color: var(--logo);
+  text-underline-offset: 20px;
   vertical-align: middle;
   font-size: 3.5rem;
 }
 .titles h2 {
-  margin-left: 100px;
-  padding-top: 40px;
+  margin-left: 60px;
+  padding-top: 60px;
   font-size: 2rem;
   color: var(--logo);
 }
 .menu {
   margin-top: 40px;
   margin-left: 60px;
+  font-family: cursive;
+}
+.menu label {
+  font-size: large;
+  font-weight: bold;
+}
+.menu select {
+  min-width: 180px;
+  margin-left: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: medium;
+  font-family: cursive;
+}
+.menu button {
+  font-size: medium;
+  font-weight: bold;
+  font-family: cursive;
+  margin-left: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.menu img {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  width: 400px;
+}
+.container {
+  margin-left: 50px;
+}
+.container h2 {
+  padding-left: 20px;
+  padding-bottom: 20px;
+  text-decoration: overline underline;
+  text-decoration-color: var(--logo);
+  text-underline-offset: 10px;
+}
+.container p {
+  margin-bottom: 100px;
 }
